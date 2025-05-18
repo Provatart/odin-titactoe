@@ -24,13 +24,12 @@ html{
     height: 150px;
     text-align: center;
     padding-top: 30px;
-    /* line-height: 100px;; */
+
 
   }
   .grid-container{
     
-    /* width: minmax(500px, 40vw);
-    height: minmax(500px, 40vw); */
+ 
     min-width: 500px;
     min-height: 500px;
     width: 40vw;
@@ -56,23 +55,22 @@ main{
     width: 99%;
 }
 .right{
-    /* background-image: url('./assets/images/zero.png');
-    background-size: contain; */
+
     opacity: .3;
-    backdrop-filter: ;
+  
     position: fixed;
     width: 50%;
     right:0;
     height: 100%;
     
-    /* background-color: #33333375; */
+
     z-index: -1;
 }
 .left{
     position: fixed;
-    /* background-image: url('./assets/images/cross.png'); */
+
     opacity: .3;
-    /* background-size: contain; */
+
     width: 50%;
     height: 100%;
     background-color: #7ceca1d8; 
