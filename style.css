@@ -1,0 +1,48 @@
+html {
+    font-family: "Press Start 2P", serif;
+    color: #30878ae1;
+    background-color: #f7f7ef;
+    margin: 0;
+    padding: 0;
+
+    
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    min-width: 500px;
+
+
+  }                 
+  header {
+    height: 100px;
+    text-align: center;
+    line-height: 100px;;
+
+  }
+  .grid-container{
+    
+    /* width: minmax(500px, 40vw);
+    height: minmax(500px, 40vw); */
+    min-width: 500px;
+    min-height: 500px;
+    width: 40vw;
+    height: 40vw;
+    background-color: #333;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 5px;
+    gap: 5px;
+  }
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.cell {
+    background-color: #f7f7ef;
+    width: 100%;
+    height: 100%;
+}
