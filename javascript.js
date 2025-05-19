@@ -1,6 +1,6 @@
 const gridContainer = document.querySelector(".grid-container");
 const leftSide = document.querySelector(".left");
-leftSide.style.backgroundColor = "#7ceca1d8";
+leftSide.style.backgroundColor = "#7cbfecd8";
 const rightSide = document.querySelector(".right");
 const boxButton = document.querySelector(".box-button");
 const box = document.querySelector(".congratWin");
@@ -30,8 +30,7 @@ const board = (function () {
     } else {
       message.innerHTML = `O wins!<br>Congratulations!`;
     }
-    // rightSide.style.backgroundColor = "#7ceca1d8";
-    //       rightSide.style.backgroundColor = "#00000000";
+
     box.style.display = "flex";
   };
 
@@ -106,7 +105,7 @@ const game = (function () {
     const zeroMan = createGamer("ZeroMan", -1);
     board.resetMatrix();
     board.printBoard();
-    leftSide.style.backgroundColor = "#7ceca1d8";
+    leftSide.style.backgroundColor = "#7cbfecd8";
           rightSide.style.backgroundColor = "#00000000";
     gridContainer.innerHTML = `<div id='id0-0'class="cell"></div><div id='id0-1'class="cell"></div><div id='id0-2'class="cell"></div><div id='id1-0'class="cell"></div><div id='id1-1'class="cell"></div><div id='id1-2'class="cell"></div><div id='id2-0'class="cell"></div><div id='id2-1'class="cell"></div><div id='id2-2'class="cell"></div>`;
 
@@ -129,7 +128,7 @@ const game = (function () {
           counter++;
         } else {
           board.getStroke(+stroke[0], +stroke[1], zeroMan.sign);
-          leftSide.style.backgroundColor = "#7ceca1d8";
+          leftSide.style.backgroundColor = "#7cbfecd8";
           rightSide.style.backgroundColor = "#00000000";
           target.innerHTML = '<img src="./assets/images/zero.png" alt="zero" >';
           toggler++;
