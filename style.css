@@ -4,7 +4,8 @@ html{
     background-color: #f7f7ef;
     margin: 0;
     padding: 0;
-    min-width: 500px;
+    min-width: 350px;
+    box-sizing: border-box;
 
     
   }
@@ -16,7 +17,7 @@ html{
   h1 {
     margin: 0;
     padding: 0;
-    min-width: 500px;
+    min-width: 350px;
 
 
   }                 
@@ -30,10 +31,10 @@ html{
   .grid-container{
     
  
-    min-width: 500px;
-    min-height: 500px;
-    width: 40vw;
-    height: 40vw;
+    min-width: 350px;
+    min-height: 350px;
+    width: 35vw;
+    height: 35vw;
     background-color: #333;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -85,7 +86,7 @@ main{
     display: none;
     justify-content: center;
     align-items: center;
-    min-width: 500px;;
+    min-width: 350px;;
 }
 .box {
     padding: 30px 0;
